@@ -1,0 +1,5 @@
+train: E:\YOLOV8\datasets\datasets\train\images
+val: E:\YOLOV8\datasets\datasets\val\images
+
+nc: 3
+names: ['Warning','Prohibitory','Mandatory']
