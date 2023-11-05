@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Roboto&display=swap');
+
+*{/*Making NavBar touch the Top*/
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+
+nav{
+    background-color:rgb(118, 167, 214);
+    color:white;
+    height:90px;
+    font-size:30px;
+    display:flex;
+    align-items:center;
+    padding:0 20px;
+    /* font-family:'Roboto',sans-serif;*/
+}
+
+nav ul{
+    list-style-type:none;
+}
+
+nav{
+    padding:10px;
+}
+
+h1{
+    margin:20px;
+    font-family:"Baloo Bhaina 2";
+}
+
+p{
+    font-family:"Baloo Bhaina 2";
+}
+
+.btn {
+    background: #77c8ed;
+    background-image: -webkit-linear-gradient(top, #a6d9ef, #61a4f6);
+    background-image: -moz-linear-gradient(top, #a6d9ef, #61a4f6);
+    background-image: -ms-linear-gradient(top, #a6d9ef, #61a4f6);
+    background-image: -o-linear-gradient(top, #a6d9ef, #61a4f6);
+    background-image: linear-gradient(to bottom, #a6d9ef, #61a4f6);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+  
+.btn:hover {
+    background: #a5c4f3;
+    text-decoration: none;
+}
+
+input{
+    display:inline-block;
+    max-width:500px;
+    margin:20px auto;
+}
+
+p{
+    margin:5px 0px auto;
+    padding:5px 0px auto;
+}
+
+img{
+    height:300px;
+    width:300px;
+    margin:20px;
+    padding:20px;
+}
+
+.sampleImages{
+    max-width:1200px;
+    text-align:center;
+    margin:20px auto;
+}

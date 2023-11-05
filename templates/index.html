@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Road Sign Classifier YOLOv8</title>
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+    <div>
+        <nav>
+            <ul><li>YOLOv6 Road Sign Classifier</li></ul>
+        </nav>
+    
+        <div>
+            <h1>Welcome to our Road Sign Classifier</h1>
+        </div>
+
+        <p>Sample Images on which our Model has worked on-</p>
+        <div class="sampleImages">
+            <div class="div1">
+                <img class="images" src="Images/00000.jpg">
+                <img class="images" src="Images/00002.jpg">
+                <!-- <img class="images" src="Images/00004.jpg">
+                <img class="images" src="Images/00005.jpg"> -->
+            </div>
+        </div>
+
+        <form method="post" enctype="multipart/form-data" name="form1">
+            <input type="file" name="file" class="form-control-file" id="inputfile">
+            <button type="submit" class="btn">Upload</button>
+            <p>Built using YOLOv8 and Flask</p>
+        </form>
+    </div>
+</body>
+</html>
